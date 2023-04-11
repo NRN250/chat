@@ -1,0 +1,62 @@
+.chat {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+.chat-window {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.messages {
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.message {
+    margin-bottom: 10px;
+}
+
+.message .time {
+    font-size: 0.8em;
+    color: #999;
+    margin-left: 10px;
+}
+
+.message .author {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.input {
+    display: flex;
+}
+
+.input input {
+    flex: 1;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.input button {
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+    background-color: #4285F4;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.emoji {
+    height: 1em;
+    width: 1em;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 5px;
+}
